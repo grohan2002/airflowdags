@@ -2,7 +2,6 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
-from sentry_sdk.integrations.serverless import serverless_function
 from data_pipeline import logger
 
 
